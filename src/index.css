@@ -1,0 +1,36 @@
+:root {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  background-color: black;
+  
+  color: rgba(255, 255, 255, 0.87);
+  background-image: url(assets/back.gif) ;
+}
+
+
+img {
+  margin-top: 15px;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  /* background-color: #6d4aeb; */
+  background-image: linear-gradient(90deg,#7e2ddb,#1eae98);
+  border: #7e2ddb;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: rgb(255, 255, 255);
+}
+button:hover {
+  border-color: #2e3052;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
